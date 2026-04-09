@@ -11,15 +11,10 @@ import random
 
 
 async def wait_random(max_delay: int = 10) -> float:
-    """
-    1.  uniform() method returns a random floating number between
-    the two specified numbers (x, y).
+    """1. random.uniform(x, y) → returns a float between x and y
 
-    2a. await = pause this couroutine until result is ready.
-
-    2b. asyncio.sleep = asynchronous function from asyncio module,
-    tells python pause for x seconds(accordingly to random uniform
-    in this case) - without blocking everything else in the meantime"""
+    2a. await → pauses this coroutine until the awaited task finishes
+    2b. asyncio.sleep(x) → non-blocking sleep (other coroutines can run)"""
 
     the_delay = random.uniform(0, max_delay)  # 1.
 

@@ -1,4 +1,6 @@
 #!/usr/bin/env python3
+"""docstring"""
+
 
 # page = page number x 
 # page_size = amount on index per page

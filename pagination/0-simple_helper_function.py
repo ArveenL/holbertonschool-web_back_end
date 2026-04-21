@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""docstring"""
 
-
-# page = page number x 
+# page = page number x
 # page_size = amount on index per page
 
 from typing import Tuple
+
 
 def index_range(page: int = 0, page_size: int = 0) -> tuple:
     """docstring"""

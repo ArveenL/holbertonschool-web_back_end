@@ -34,20 +34,7 @@ class Server:
 
         start, end = index_range(page, page_size)
 
-        all_data = self.dataset()
+        dataset = self.dataset()
 
-        return all_data[start:end]
+        return dataset[start:end]
     
-        
-
-
-
-
-
-# Notes
-    # index_range = calculates the first index and last index on a given 
-    # page x
-
-# Real World Example
-    # We want to access indexes in page 3, the program will 
-    # have to know to skip indexes 0 to 20

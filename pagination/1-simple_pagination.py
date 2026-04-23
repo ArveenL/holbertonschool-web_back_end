@@ -3,11 +3,13 @@ import math
 from typing import List
 from typing import Tuple
 
+
 def index_range(page: int = 0, page_size: int = 0) -> tuple:
     """docstring"""
     start_index = (page - 1) * page_size
     end_index = page * page_size
     return (start_index, end_index)
+
 
 class Server:
     """Server class to paginate a database of popular baby names.
@@ -37,4 +39,3 @@ class Server:
         dataset = self.dataset()
 
         return dataset[start:end]
-    

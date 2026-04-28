@@ -1,0 +1,4 @@
+#!/usr/bin/env python3
+// use or create db
+
+use my_db  # 'use' creates or uses existing db(specify name of the db for it to work)

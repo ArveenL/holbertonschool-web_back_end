@@ -2,4 +2,4 @@
 // List all databases
 
 
-show dbs
+client.list_database_names()

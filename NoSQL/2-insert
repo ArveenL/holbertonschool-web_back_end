@@ -1,6 +1,9 @@
-#!/usr/bin/env python3
 // Write a script that inserts a document in the collection school:
 // The document must have one attribute name with value "Holberton school"
 // The database name will be passed as option of mongo command
 
+db.school.insert({name:Holberton school})
 
+//In MongoDB, you use the insert() function to do this
+//Because you are targeting the school collection, your script will use db.school.insert().
+//The data you are adding is structured as a key-value pair inside curly brackets: the key is name and the value is "Holberton school"

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""docstring"""
+"""Write a Python function that inserts a new document
+in a collection based on kwargs:"""
 
 from pymongo import MongoClient
 

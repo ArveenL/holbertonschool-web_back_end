@@ -6,8 +6,8 @@ a school document based on the name:"""
 from pymongo import MongoClient
 
 def update_topics(mongo_collection, name, topics):
-    """docstring"""
+    """Updates all topics for a school document based on the name"""
     mongo_collection.update_many(
-        { "name" = name},
-        { $set: { "topics" = topics } }
+        { "name": name },
+        { "$set": { "topics": topics } }
     )

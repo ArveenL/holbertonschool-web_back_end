@@ -12,7 +12,7 @@ export default class ClassRoom {
     }
 }
 
-# export default = allows to share the class with other files
-# class ClassRoom = declaring a class and assigning its name
-# this = designate precise object that we're building at a precise moment
-# this._max_studentsize = maxStudentsize = we register the max number of students inside an internal variable
+// export default = allows to share the class with other files
+// class ClassRoom = declaring a class and assigning its name
+// this = designate precise object that we're building at a precise moment
+// this._max_studentsize = maxStudentsize = we register the max number of students inside an internal variable

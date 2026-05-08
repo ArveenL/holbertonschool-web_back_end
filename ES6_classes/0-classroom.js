@@ -7,8 +7,8 @@ It should accept one attribute named maxStudentsSize (Number) and assigned to _m
 
 
 export default class ClassRoom {    
-    constructor(maxStudentSize) {
-        this._max_StudentSize = maxStudentSize; 
+    constructor(maxStudentsSize) {
+        this._max_StudentsSize = maxStudentsSize; 
     }
 }
 

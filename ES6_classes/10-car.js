@@ -13,8 +13,8 @@ Hint: Symbols in ES6 */
 export default class Car {
     constructor(brand, motor, color) {
         this._brand = brand;
-        this.motor = motor;
-        this.color = color;
+        this._motor = motor;
+        this._color = color;
     }
 
     static get [Symbol.species]() {  // defining the class species 

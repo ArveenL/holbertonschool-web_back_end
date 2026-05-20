@@ -8,7 +8,7 @@
  * @param {Array} students - list of the object 'student'
  * @returns {Number} - sum of all student IDs
  */
-export function getStudentIdsSum(students) {
+export default function getStudentIdsSum(students) {
     return students.reduce((accumulator, student) => accumulator + student.id, 0);
 }
 
